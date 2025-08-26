@@ -1,0 +1,7 @@
+.vs
+BACKEND/bin
+BACKEND/obj
+WebAPI/bin
+WebAPI/obj
+NogometnoNatjecanje/obj
+NogometnoNatjecanje/bin
