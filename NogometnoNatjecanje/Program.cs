@@ -33,7 +33,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.UseSwagger();
@@ -51,6 +51,6 @@ app.UseDefaultFiles();
 app.MapFallbackToFile("index.html");
 
 
-app.UseCors("CorsPolicy");
+
 
 app.Run();
