@@ -22,7 +22,7 @@ export default function NatjecanjaDodaj(){
         dodaj(
             {
             naziv: podaci.get('naziv'),
-            mjesto: podaci.get('cijena')
+            mjesto: podaci.get('mjesto')
             }
         )
 

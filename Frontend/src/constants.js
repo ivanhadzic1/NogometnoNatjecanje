@@ -6,4 +6,4 @@ export const RouteNames = {
     NATJECANJE_PROMJENA: '/natjecanja/:sifra'
 }
 
-export const PRODUKCIJA='http://ivanhadzic-001-site1.ktempurl.com';
+export const PRODUKCIJA='https://ivanhadzic-001-site1.ktempurl.com';

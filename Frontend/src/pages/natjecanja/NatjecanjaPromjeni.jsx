@@ -53,10 +53,10 @@ export default function SmjeroviPromjena(){
                 defaultValue={natjecanje.naziv} />
             </Form.Group>
 
-            <Form.Group controlId="cijena">
+            <Form.Group controlId="mjesto">
                 <Form.Label>Mjesto</Form.Label>
                 <Form.Control type="text" name="mjesto"
-                defaultValue={natjecanje.cijena} />
+                defaultValue={natjecanje.mjesto} />
             </Form.Group>
 
             <hr style={{marginTop: '50px'}} />
